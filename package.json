@@ -1,0 +1,32 @@
+{
+  "name": "webpack-ssh-sftp-file",
+  "version": "1.0.0",
+  "description": "Webpack clear console plugin",
+  "main": "webpack-ssh-sftp-file.js",
+  "devDependencies": {
+    "ssh2-sftp-client": "^5.3.1",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "test": "webpack-dev-server --config webpack.test.config.js",
+    "build": "webpack --progress --profile --colors --config demo/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wss199mz/webpack-ssh-sftp-file"
+  },
+  "keywords": [
+    "webpack",
+    "console",
+    "log",
+    "debugging",
+    "remove"
+  ],
+  "author": "wangShanShan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wss199mz/webpack-ssh-sftp-file/blob/main/README.md"
+  }
+}
