@@ -2,7 +2,6 @@
  * Webpack configuration for plugin
  */
 var path = require("path");
-// var WebpackClearConsole = require("../index").WebpackClearConsole;
 var webpackSshSftpFile = require('../lib/webpack-ssh-sftp-file');
 module.exports = {
     cache: true,
