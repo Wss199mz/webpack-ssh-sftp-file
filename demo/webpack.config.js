@@ -14,7 +14,6 @@ module.exports = {
     },
     plugins: [
         // Try various defaults and options.
-        // new WebpackClearConsole()
       new webpackSshSftpFile(
         {
             server: {
